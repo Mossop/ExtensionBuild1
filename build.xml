@@ -96,6 +96,7 @@
 			<mapper type="glob" from="*.in" to="*"/>
 		  <filterset>
 				<filter token="id" value="${extension.guid}"/>
+				<filter token="name" value="${extension.name}"/>
 				<filter token="version" value="${extension.fullversion}"/>
 	  	</filterset>
 		</copy>
